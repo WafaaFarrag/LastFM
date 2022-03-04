@@ -7,9 +7,10 @@
 
 import UIKit
 
+let base_URL = "http://ws.audioscrobbler.com/2.0/"
+let API_Key = "8c038da810f31908a6025f9ce6e52449"
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
